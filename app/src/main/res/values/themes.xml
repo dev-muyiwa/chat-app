@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChatApp" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal_green</item>
+        <item name="colorPrimaryVariant">@color/teal_green</item>
+        <item name="colorOnPrimary">@color/white_gray</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_green</item>
+        <item name="colorSecondaryVariant">@color/teal_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!--        Overflow button-->
+        <item name="android:colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="Theme.ChatApp.AppTheme" parent="Theme.ChatApp">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:navigationBarColor">#F3F3F3</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="Theme.ChatApp.Toolbar" parent="Theme.ChatApp">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:iconTint" tools:targetApi="o">@color/white</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Theme.ChatApp.TabItem" parent="Theme.ChatApp">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

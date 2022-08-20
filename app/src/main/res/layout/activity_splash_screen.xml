@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorOnPrimary"
+    tools:context=".presentation.activity.MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:elevation="4dp"
+        app:srcCompat="@drawable/whatsapp_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/company_logo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/from"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/company_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="@string/company_name"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        app:drawableStartCompat="@drawable/meta_logo" />
+</RelativeLayout>

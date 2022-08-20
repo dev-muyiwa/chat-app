@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/drawable/ic_meta_logo.xml" value="0.1" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/drawable/meta_logo.xml" value="0.1" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/drawable/round_white_bg.xml" value="0.152" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/drawable/whatsapp_logo.xml" value="0.1" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/fragment_calls.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/fragment_chats.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/fragment_new_call.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/fragment_status.xml" value="0.33" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/fragment_view_pager.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/layout_calls_item.xml" value="0.22" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/layout/layout_chats_item.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/menu-v26/menu_toolbar.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/muyiw/Documents/ChatApp/app/src/main/res/menu/menu_toolbar.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
