@@ -7,7 +7,7 @@
     <string name="tab_calls">Calls</string>
     <string name="hello_blank_fragment">Hello</string>
     <string name="search">Search</string>
-<!--    Toolbar menu-->
+    <!--    Toolbar menu-->
     <string name="new_group">New group</string>
     <string name="new_broadcast">New broadcast</string>
     <string name="linked_devices">Linked devices</string>
@@ -18,4 +18,7 @@
     <string name="my_status">My Status</string>
     <string name="update_status_text">Tap to add status update</string>
     <string name="recent_updates">Recent updates</string>
+    <string name="app_welcome">Welcome to WhatsClone</string>
+    <string name="policy_agreement">Read our privacy policy here. Tap on Agree and Continue to accept all terms of service</string>
+    <string name="agree_and_continue">Agree and Continue</string>
 </resources>

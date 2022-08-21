@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/viewPagerFragment"
-        android:name="com.devmuyiwa.chatapp.presentation.fragment.viewPager.ViewPagerFragment"
+        android:name="com.devmuyiwa.chatapp.presentation.main.fragment.viewPager.ViewPagerFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_view_pager">
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/newContactFragment"
-        android:name="com.devmuyiwa.chatapp.presentation.fragment.newContact.NewContactFragment"
+        android:name="com.devmuyiwa.chatapp.presentation.main.fragment.newContact.NewContactFragment"
         android:label="@string/new_contact"
         tools:layout="@layout/fragment_new_contact" />
     <fragment
         android:id="@+id/newCallFragment"
-        android:name="com.devmuyiwa.chatapp.presentation.fragment.newCall.NewCallFragment"
+        android:name="com.devmuyiwa.chatapp.presentation.main.fragment.newCall.NewCallFragment"
         android:label="@string/new_call"
         tools:layout="@layout/fragment_new_call" />
 </navigation>

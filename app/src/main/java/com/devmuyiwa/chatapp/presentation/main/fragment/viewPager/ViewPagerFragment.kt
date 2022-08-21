@@ -1,9 +1,8 @@
-package com.devmuyiwa.chatapp.presentation.fragment.viewPager
+package com.devmuyiwa.chatapp.presentation.main.fragment.viewPager
 
 import android.content.res.Resources
 import android.os.Bundle
 import android.view.*
-import androidx.core.content.ContextCompat.getDrawable
 import androidx.fragment.app.Fragment
 import com.devmuyiwa.chatapp.R
 import com.devmuyiwa.chatapp.databinding.FragmentViewPagerBinding
@@ -28,18 +27,12 @@ class ViewPagerFragment : Fragment() {
             when (index) {
                 0 -> {
                     tab.text = getString(R.string.tab_chats)
-                    binding.fabAction.setImageDrawable(
-                        getDrawable(requireContext(), R.drawable.ic_message))
                 }
                 1 -> {
                     tab.text = getString(R.string.tab_status)
-                    binding.fabAction.setImageDrawable(
-                        getDrawable(requireContext(), R.drawable.ic_camera))
                 }
                 2 -> {
                     tab.text = getString(R.string.tab_calls)
-                    binding.fabAction.setImageDrawable(
-                        getDrawable(requireContext(), R.drawable.ic_call_add))
                 }
                 else -> throw Resources.NotFoundException("Position Not Found")
             }

@@ -1,4 +1,4 @@
-package com.devmuyiwa.chatapp.presentation.activity
+package com.devmuyiwa.chatapp.presentation.main.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -12,9 +12,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash_screen)
         binding = ActivityMainBinding.inflate(layoutInflater)
-        Thread.sleep(2000)
         setContentView(binding.root)
 //        Navigation Components
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as

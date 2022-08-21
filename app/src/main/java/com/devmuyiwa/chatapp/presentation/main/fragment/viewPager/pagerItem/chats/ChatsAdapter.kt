@@ -1,7 +1,6 @@
-package com.devmuyiwa.chatapp.presentation.fragment.viewPager.pagerItem.chats
+package com.devmuyiwa.chatapp.presentation.main.fragment.viewPager.pagerItem.chats
 
 import android.view.*
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import coil.load

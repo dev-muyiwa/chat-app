@@ -29,7 +29,7 @@
     </style>
 
     <style name="Theme.ChatApp.TabItem" parent="Theme.ChatApp">
-        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textAllCaps">true</item>
     </style>

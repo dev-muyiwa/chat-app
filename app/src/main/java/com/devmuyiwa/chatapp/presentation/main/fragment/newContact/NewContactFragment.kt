@@ -1,4 +1,4 @@
-package com.devmuyiwa.chatapp.presentation.fragment.newContact
+package com.devmuyiwa.chatapp.presentation.main.fragment.newContact
 
 import android.os.Bundle
 import android.view.*

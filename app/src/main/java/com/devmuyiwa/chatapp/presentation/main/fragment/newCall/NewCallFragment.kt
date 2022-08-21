@@ -1,20 +1,20 @@
-package com.devmuyiwa.chatapp.presentation.fragment.viewPager.pagerItem.calls
+package com.devmuyiwa.chatapp.presentation.main.fragment.newCall
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.devmuyiwa.chatapp.databinding.FragmentCallsBinding
+import com.devmuyiwa.chatapp.databinding.FragmentNewCallBinding
 
-class CallsFragment : Fragment() {
-    private var _binding: FragmentCallsBinding? = null
+class NewCallFragment : Fragment() {
+    private var _binding: FragmentNewCallBinding? = null
     private val binding get() = _binding!!
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View {
-        _binding =  FragmentCallsBinding.inflate(inflater, container, false)
+        _binding = FragmentNewCallBinding.inflate(inflater, container, false)
         return binding.root
     }
 

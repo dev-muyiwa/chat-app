@@ -8,8 +8,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/user_image"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:backgroundTint="@color/white_gray"
         android:src="@drawable/dummy_image"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/user_image"
         app:layout_constraintEnd_toEndOf="@+id/last_message_time"
         app:layout_constraintStart_toEndOf="@+id/user_image"
         app:layout_constraintTop_toTopOf="@+id/user_image">
@@ -30,10 +31,10 @@
             android:id="@+id/user_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_semi_bold"
+            android:fontFamily="@font/poppins_medium"
             android:maxLines="1"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="16sp"
             tools:text="Muyiwa" />
 
         <TextView
@@ -41,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:maxLines="1"
-            android:textSize="16sp"
+            android:textSize="14sp"
             tools:text="How was your day?" />
     </LinearLayout>
 
@@ -50,10 +51,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:maxLines="1"
-        android:textColor="#2E2E2E"
-        android:textSize="16sp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        tools:text="12/04/2000" />
+        tools:text="12/04/22" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
